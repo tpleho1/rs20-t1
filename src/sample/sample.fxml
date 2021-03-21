@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+
+
+<GridPane styleClass="grid"  fx:id="grid" alignment="center" hgap="10" prefHeight="419.0" prefWidth="385.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+    <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+   <children>
+
+      <Button id="dugme" mnemonicParsing="false" onAction="#actionButton" text="say 'Hello World'" />
+      <Label  id="labela" fx:id="helloWorld" GridPane.rowIndex="1" />
+   </children>
+
+
+</GridPane>
+
+

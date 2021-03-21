@@ -1,0 +1,19 @@
+
+
+#labela{
+
+
+-fx-font-family: 'serif' ;
+-fx-font-weight: bold;
+
+}
+
+
+
+#grid1{
+-fx-background-color: tomato;
+}
+
+.grid{
+-fx-background-color: lightskyblue;
+}
